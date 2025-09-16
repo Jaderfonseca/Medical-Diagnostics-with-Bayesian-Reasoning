@@ -161,9 +161,9 @@ In that moment, Maria’s life feels as if it has shifted. She begins imagining 
 **Ethical reflection**  
 Maria’s story highlights the profound **psychological impact of false positives**. Even though the actual probability is less than 1 in 10, the wording *“you may have cancer”* is enough to cause fear, sleepless nights, and possibly unnecessary invasive biopsies.  
 
-From an ethical perspective, this shows the responsibility of professionals and systems to **communicate uncertainty with clarity and compassion**. Accuracy metrics like “85% sensitivity” or “90% specificity” mean little to patients unless translated into understandable risks.  
+From an ethical perspective, this shows the responsibility of professionals and systems to communicate uncertainty with **clarity and compassion**. Accuracy metrics like “85% sensitivity” or “90% specificity” mean little to patients unless translated into understandable risks.  
 
-In AI systems, similar dangers arise: a fraud detection algorithm that flags innocent users, or a hiring model that falsely excludes qualified candidates. Like Maria’s mammogram, the **false positives may be numerically small but emotionally and socially costly**. Responsible governance means anticipating these outcomes and building safeguards for those affected.  
+In AI systems, similar dangers arise: a fraud detection algorithm that flags innocent users, or a hiring model that falsely excludes qualified candidates. Like Maria’s mammogram, the false positives may be numerically small but **emotionally and socially costly**. Responsible governance means anticipating these outcomes and building safeguards for those affected.  
 
 ---
 
@@ -181,7 +181,7 @@ John breathes a sigh of relief. He believes he is safe, goes back to work the ne
 **Ethical reflection**  
 Even though the rapid test is “good” by statistical standards, John’s negative result carried a **non-negligible risk of being wrong**. The real danger is not the number itself, but the **false reassurance** it gave him. He acted as though he was safe, when in reality the test result needed to be interpreted with caution and ideally repeated.  
 
-The parallel in AI is clear: imagine a self-driving car’s system giving a false “all clear” signal when a pedestrian is actually present, or a credit algorithm wrongly denying risk in a high-prevalence fraud setting. **False negatives can create an illusion of safety, leading to dangerous consequences.**  
+The parallel in AI is clear: imagine a self-driving car’s system giving a false “all clear” signal when a pedestrian is actually present, or a credit algorithm wrongly denying risk in a high-prevalence fraud setting. False negatives can create an **illusion of safety**, leading to dangerous consequences.  
 
 This highlights the need for governance structures that mandate **protocols after uncertain outputs**: in medicine, retesting or combining test types; in AI, requiring human-in-the-loop review or multiple model checks.  
 
@@ -189,7 +189,7 @@ This highlights the need for governance structures that mandate **protocols afte
 
 ### From Medicine to AI
 
-Both stories reveal the same lesson: **uncertainty is inevitable, but how we communicate and act on it defines the ethical impact.**  
+Both stories reveal the same lesson: uncertainty is inevitable, but **how we communicate** and act on it defines the ethical impact.  
 
 - In low-prevalence settings (Maria’s mammogram), positive results are likely to be false alarms → parallel to AI models that over-flag rare events.  
 - In high-prevalence settings (John’s rapid test), negative results are risky → parallel to AI models that under-detect critical risks.  

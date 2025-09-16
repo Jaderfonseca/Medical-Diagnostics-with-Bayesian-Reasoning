@@ -133,7 +133,7 @@ ___
 
 ## 2. Simulation & Plots
 
-- **Notebook:** [`notebooks/diagnostics_bayes.ipynb`](notebooks/diagnostics_bayes.ipynb)  
+- **Notebook:** [diagnostics_bayes.ipynb](diagnostics_bayes.ipynb)  
 - **Figures:** see `/figures` folder for all outputs.
 
 ### Main features

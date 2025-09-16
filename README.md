@@ -120,6 +120,24 @@ For AI and governance, the lesson is clear — **outputs cannot be interpreted i
 
 ___
 
-### Simulations
+## Simulations
 
+To complement the theoretical analysis from Night 1, this section adds a minimal Python notebook with Bayesian simulations.
 
+- **Notebook:** [`notebooks/diagnostics_bayes.ipynb`](notebooks/diagnostics_bayes.ipynb)  
+- **Figures:** see `/figures` folder for all outputs.
+
+### Main features
+- Function that calculates posterior odds and probabilities from sensitivity, specificity, and prevalence.  
+- Simulation of 1,000 patients for each scenario (mammography and COVID-19 rapid test).  
+- Simple matplotlib plots:
+  - Prior vs Posterior probability.
+  - Absolute counts of True Positives (TP), False Positives (FP), False Negatives (FN), and True Negatives (TN).
+
+### Example outputs
+
+**Prior vs Posterior Probability (Mammogram)**  
+![Mammogram Prior vs Posterior](figures/mammogram_prior_posterior.png)
+
+**Confusion Counts (COVID-19 Rapid Test)**  
+![COVID Confusion Counts](figures/covid_confusion_counts.png)

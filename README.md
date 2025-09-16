@@ -133,8 +133,6 @@ ___
 
 ## 2. Simulation & Plots
 
-To complement the theoretical analysis from Night 1, this section adds a minimal Python notebook with Bayesian simulations.
-
 - **Notebook:** [`notebooks/diagnostics_bayes.ipynb`](notebooks/diagnostics_bayes.ipynb)  
 - **Figures:** see `/figures` folder for all outputs.
 

@@ -141,3 +141,63 @@ To complement the theoretical analysis from Night 1, this section adds a minimal
 
 **Confusion Counts (COVID-19 Rapid Test)**  
 ![COVID Confusion Counts](figures/covid_confusion_counts.png)
+
+___
+
+## Storytelling & Ethics
+
+### Case Study A: Patient with a Positive Mammogram
+
+**Narrative**  
+Maria, a 45-year-old woman, goes for a routine mammogram as part of her annual health check. She feels healthy, has no major symptoms, and comes from a family with no known history of breast cancer.  
+She sits anxiously in the waiting room while the technician reviews the scan. A few minutes later, she hears: *“The result is positive — you may have breast cancer.”*  
+
+In that moment, Maria’s life feels as if it has shifted. She begins imagining the worst: chemotherapy, surgery, the impact on her children. Yet statistically, the chance she actually has cancer is still small.  
+
+**Bayesian update**  
+- Prior probability (prevalence in this age group): **1%**  
+- Posterior probability after positive test: **~8%**  
+
+**Ethical reflection**  
+Maria’s story highlights the profound **psychological impact of false positives**. Even though the actual probability is less than 1 in 10, the wording *“you may have cancer”* is enough to cause fear, sleepless nights, and possibly unnecessary invasive biopsies.  
+
+From an ethical perspective, this shows the responsibility of professionals and systems to **communicate uncertainty with clarity and compassion**. Accuracy metrics like “85% sensitivity” or “90% specificity” mean little to patients unless translated into understandable risks.  
+
+In AI systems, similar dangers arise: a fraud detection algorithm that flags innocent users, or a hiring model that falsely excludes qualified candidates. Like Maria’s mammogram, the **false positives may be numerically small but emotionally and socially costly**. Responsible governance means anticipating these outcomes and building safeguards for those affected.  
+
+---
+
+### Case Study B: Patient with a Negative COVID-19 Rapid Test
+
+**Narrative**  
+John, a 30-year-old man, lives with three roommates, two of whom have just tested positive for COVID-19 during a local outbreak. He develops mild symptoms — a cough and fatigue — and decides to take a rapid antigen test at a local pharmacy. The result appears quickly: *Negative.*  
+
+John breathes a sigh of relief. He believes he is safe, goes back to work the next day, and meets friends for dinner. A few days later, however, he develops a fever and tests positive on a PCR test. By then, he has already exposed dozens of people.  
+
+**Bayesian update**  
+- Prior probability (prevalence in high-risk group during outbreak): **20%**  
+- Posterior probability after negative test: **~5%**  
+
+**Ethical reflection**  
+Even though the rapid test is “good” by statistical standards, John’s negative result carried a **non-negligible risk of being wrong**. The real danger is not the number itself, but the **false reassurance** it gave him. He acted as though he was safe, when in reality the test result needed to be interpreted with caution and ideally repeated.  
+
+The parallel in AI is clear: imagine a self-driving car’s system giving a false “all clear” signal when a pedestrian is actually present, or a credit algorithm wrongly denying risk in a high-prevalence fraud setting. **False negatives can create an illusion of safety, leading to dangerous consequences.**  
+
+This highlights the need for governance structures that mandate **protocols after uncertain outputs**: in medicine, retesting or combining test types; in AI, requiring human-in-the-loop review or multiple model checks.  
+
+---
+
+### From Medicine to AI
+
+Both stories reveal the same lesson: **uncertainty is inevitable, but how we communicate and act on it defines the ethical impact.**  
+
+- In low-prevalence settings (Maria’s mammogram), positive results are likely to be false alarms → parallel to AI models that over-flag rare events.  
+- In high-prevalence settings (John’s rapid test), negative results are risky → parallel to AI models that under-detect critical risks.  
+
+For both medicine and AI:  
+- **Accuracy alone is insufficient.**  
+- **Prevalence and context matter deeply.**  
+- **Communication and governance decide whether uncertainty leads to harm or to trust.**  
+
+This mini project demonstrates not only the math of Bayesian reasoning but its **human and societal dimension**. It illustrates why explainability, transparency, and ethical reflection must be central to deploying AI systems — the same principles that protect patients in medicine can protect users and communities in the digital age.  
+

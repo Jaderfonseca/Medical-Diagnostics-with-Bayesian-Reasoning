@@ -1,7 +1,18 @@
 # Bayesian Diagnostics: Medical Decisions under Uncertainty
 *A mini project exploring how Bayesian reasoning improves medical decision-making under uncertainty — part of my AI Safety & Ethics portfolio.*
 
-## Introduction
+---
+
+## Table of Contents  
+- [1. Theory & Contingency Tables](#1-theory--contingency-tables)  
+- [2. Simulation & Plots](#2-simulation--plots)  
+- [3. Storytelling & Ethical Narrative](#3-storytelling--ethical-narrative)  
+
+---
+
+## 1. Theory & Contingency Tables
+
+### Introduction
 Medical diagnostics are one of the clearest examples of how statistical uncertainty shapes critical decisions. No test is perfect: there will always be false positives and false negatives. This means that doctors, patients, and healthcare systems must update their beliefs as new evidence emerges, making choices based on probabilities rather than absolute certainty.
 
 This dilemma mirrors what happens in artificial intelligence: machine learning models also operate under uncertainty and limited accuracy, requiring decision-makers to understand risks before placing full trust in their outputs. By studying medical diagnostics through Bayesian tools, we can not only see how probabilities shift with new evidence, but also reflect on governance and accountability in systems that directly impact human lives.
@@ -120,7 +131,7 @@ For AI and governance, the lesson is clear — **outputs cannot be interpreted i
 
 ___
 
-## Simulations
+## 2. Simulation & Plots
 
 To complement the theoretical analysis from Night 1, this section adds a minimal Python notebook with Bayesian simulations.
 
@@ -144,7 +155,7 @@ To complement the theoretical analysis from Night 1, this section adds a minimal
 
 ___
 
-## Storytelling & Ethics
+## 3. Storytelling & Ethical Narrative
 
 ### Case Study A: Patient with a Positive Mammogram
 

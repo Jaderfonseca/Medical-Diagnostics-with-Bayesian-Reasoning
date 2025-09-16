@@ -2,9 +2,9 @@
 *A mini project exploring how Bayesian reasoning improves medical decision-making under uncertainty — part of my AI Safety & Ethics portfolio.*
 
 ## Introduction
-Medical diagnostics are one of the clearest examples of how **statistical uncertainty shapes critical decisions**. No test is perfect: there will always be false positives and false negatives. This means that doctors, patients, and healthcare systems must **update their beliefs as new evidence emerges**, making choices based on probabilities rather than absolute certainty.
+Medical diagnostics are one of the clearest examples of how statistical uncertainty shapes critical decisions. No test is perfect: there will always be false positives and false negatives. This means that doctors, patients, and healthcare systems must update their beliefs as new evidence emerges, making choices based on probabilities rather than absolute certainty.
 
-This dilemma mirrors what happens in **artificial intelligence**: machine learning models also operate under uncertainty and limited accuracy, requiring decision-makers to understand risks before placing full trust in their outputs. By studying medical diagnostics through Bayesian tools, we can not only see how probabilities shift with new evidence, but also reflect on **governance and accountability** in systems that directly impact human lives.
+This dilemma mirrors what happens in artificial intelligence: machine learning models also operate under uncertainty and limited accuracy, requiring decision-makers to understand risks before placing full trust in their outputs. By studying medical diagnostics through Bayesian tools, we can not only see how probabilities shift with new evidence, but also reflect on governance and accountability in systems that directly impact human lives.
 
 ---
 

@@ -224,10 +224,13 @@ ___
 2. Install dependencies:
    ```bash
 pip install numpy matplotlib
+
    ```bash
-3. Open the Notebook
+3. Open the Notebook:
 
 jupyter notebook notebooks/diagnostics_bayes.ipynb
+
+___
 
 ## Limitations & Future Work
 

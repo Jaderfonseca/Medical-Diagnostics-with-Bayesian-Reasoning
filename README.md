@@ -225,8 +225,7 @@ ___
 
 pip install numpy matplotlib
 
-
-Open the Notebook
+3. Open the Notebook
 
 jupyter notebook notebooks/diagnostics_bayes.ipynb
 

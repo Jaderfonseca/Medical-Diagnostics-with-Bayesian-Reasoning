@@ -220,15 +220,12 @@ ___
 1. Clone the repository:
    ```bash
    git clone https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
+   
+2. Install dependencies:  
+   `pip install numpy matplotlib`
 
-2. Install dependencies:
-   ```bash
-pip install numpy matplotlib
-
-   ```bash
-3. Open the Notebook:
-
-jupyter notebook notebooks/diagnostics_bayes.ipynb
+3. Open the notebook:  
+   `jupyter notebook notebooks/diagnostics_bayes.ipynb`
 
 ___
 

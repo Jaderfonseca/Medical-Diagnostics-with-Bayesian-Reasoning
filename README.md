@@ -219,6 +219,7 @@ ___
    ```bash
    https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
 
+```
 ___
 
 ## Install dependencies
@@ -231,6 +232,7 @@ jupyter notebook notebooks/diagnostics_bayes.ipynb
 
 Figures will be saved automatically in /figures.
 
+```
 ___
 
 ## Limitations & Future Work

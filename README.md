@@ -214,26 +214,21 @@ ___
 
 *Final notes: running instructions, limitations, and release info.*  
 
+---
+
 ## How to Run
 1. Clone the repository:
    ```bash
-   https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
+   git clone https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
 
-```
-___
+2. Install dependencies:
 
-## Install dependencies
-```bash
 pip install numpy matplotlib
 
-## Open de Notebook
+
+Open the Notebook
 
 jupyter notebook notebooks/diagnostics_bayes.ipynb
-
-Figures will be saved automatically in /figures.
-
-```
-___
 
 ## Limitations & Future Work
 

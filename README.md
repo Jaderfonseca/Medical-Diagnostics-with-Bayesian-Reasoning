@@ -210,3 +210,33 @@ For both medicine and AI:
 
 This mini project demonstrates not only the math of Bayesian reasoning but its **human and societal dimension**. It illustrates why explainability, transparency, and ethical reflection must be central to deploying AI systems — the same principles that protect patients in medicine can protect users and communities in the digital age.  
 
+___
+
+*Final notes: running instructions, limitations, and release info.*  
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
+
+___
+
+## Install dependencies
+
+pip install numpy matplotlib
+
+## Open de Notebook
+
+jupyter notebook notebooks/diagnostics_bayes.ipynb
+
+Figures will be saved automatically in /figures.
+
+___
+
+## Limitations & Future Work
+
+Simulations use fixed sensitivity, specificity, and prevalence; real-world variation is broader.
+Only two medical scenarios are included; future work could expand to additional diseases and test types.
+Ethical reflections are illustrative; deeper exploration could connect to algorithmic fairness and real-world AI deployments.
+
+

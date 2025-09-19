@@ -217,12 +217,12 @@ ___
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
+   https://github.com/Jaderfonseca/Medical-Diagnostics-with-Bayesian-Reasoning.git
 
 ___
 
 ## Install dependencies
-
+```bash
 pip install numpy matplotlib
 
 ## Open de Notebook
